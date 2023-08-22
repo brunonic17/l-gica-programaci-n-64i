@@ -9,4 +9,6 @@ for(let TE=Elementos.length;TE<=4;TE++){
     Elementos.push(CE)   
  }
 
-console.log(Elementos)
+let Suma=Elementos[0]+Elementos[1]+Elementos[2]+Elementos[3]+Elementos[4]
+
+alert(Suma)
