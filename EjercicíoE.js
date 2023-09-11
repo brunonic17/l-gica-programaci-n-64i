@@ -1,24 +1,32 @@
-while(true){let menú=["1-coloque base \n 2-Coloque potencia \n 3-ver resultado"]
-let selección=prompt(menú)
-switch(selección){
-  case"1":var numero_base=prompt("coloque numero base")
-  break
-  case "2":var numero_potencia=prompt("coloque potencia")
-  break
-  case "3":
-    function Producto(numero_base){
- return numero_base * numero_base
-    }
-
-    function Potencia( numero_potencia){
-      for(let i=0;numero_potencia<i;i++)
-      {Producto(numero_base)}
+newFunction()
     
+
+
+
+function newFunction() {
+  while (true) {
+    let menú = ["1-Coloque base \n 2-Coloque potencia \n 3-Ver resultado"]
+    let selección = prompt(menú)
+    switch (selección) {
+      case "1": var numero_base = prompt("coloque numero base")
+        break
+      case "2": var numero_potencia = prompt("coloque potencia")
+        break
+      case "3":
+        numero_base = +numero_base
+        numero_potencia = +numero_potencia
+        function Potencia(numero_potencia, numero_base) {
+          let produ = 0
+
+          produ = numero_base ** numero_potencia
+
+          return produ
+        }
+
+        alert(Potencia(numero_potencia, numero_base))
+        break
     }
-      alert(Potencia(numero_potencia=i))
-    break
-}}
 
-
-
+  }
+}
 
