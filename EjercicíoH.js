@@ -1,7 +1,7 @@
 
     
 
- let Elementos=["A","S","M","E","B","N","G","F","P","Z"]
+ let Elementos=[]
  let Elementoabuscar =""
  let mensajetrue="La letra esta dentro del grupo"
  let mensajefalse="La letra no esta dentro del grupo"
