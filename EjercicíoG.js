@@ -10,8 +10,8 @@
  
  function busqueda(Elementoabuscar,Elementos){
   Elementos.forEach((element)=>{
-    if(element==Elementoabuscar){ console.log(mensajetrue)}
-    else{console.log(mensajefalse) }})};
+    if(element==Elementoabuscar){alert(mensajetrue)}
+    else{alert(mensajefalse) }})};
 
  while (true) {
     let menú = mensajemenú
@@ -22,7 +22,7 @@
       console.log(Elementoabuscar)
         break
       case "2":
-   console.log(busqueda(Elementoabuscar,Elementos))
+   alert(busqueda(Elementoabuscar,Elementos))
        break
   }
 
