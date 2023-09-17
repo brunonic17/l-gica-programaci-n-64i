@@ -16,7 +16,7 @@
           }
         }
       }
-      return alert(Elementos)
+      return (Elementos)
     };
 
     function ordenardesc(Elementos){
@@ -27,7 +27,7 @@
               }
             }
           }
-          return alert(Elementos)
+          return (Elementos)
         };
     
  while (true) {
@@ -42,7 +42,7 @@
       console.log(Elementos)
         break
       case "2":
-   alert(ordenarasc(Elementos))
+      alert(ordenarasc(Elementos))
        break
        case"3":
        alert(ordenardesc(Elementos))
